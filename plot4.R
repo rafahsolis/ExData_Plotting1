@@ -39,7 +39,7 @@ MyPlot4<-function(datos){
 }
     
 
-datos <- load_data("household_power_consumption1.txt")
+datos <- load_data("household_power_consumption.txt")
 set_plot()
 MyPlot1(datos)
 MyPlot2(datos)
