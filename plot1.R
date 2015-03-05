@@ -21,7 +21,7 @@ MyPlot<-function(datos){
     
 }
 
-datos <- load_data("household_power_consumption1.txt")
+datos <- load_data("household_power_consumption.txt")
 set_plot()
 MyPlot(datos)
 dev.off()
