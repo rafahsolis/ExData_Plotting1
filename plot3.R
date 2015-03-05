@@ -25,7 +25,7 @@ MyPlot<-function(datos){
     legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), col=c("black", "red", "blue"), lty=c(1,1,1))
 }
 
-datos <- load_data("household_power_consumption.txt")
+datos <- load_data("household_power_consumption1.txt")
 set_plot()
 MyPlot(datos)
 dev.off()
